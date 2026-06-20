@@ -18,4 +18,4 @@ A responsive business landing page built with HTML, CSS and JavaScript.
 Add your Vercel/Netlify link here
 
 ## Author
-Your Name
+Akarshi Agrahari
