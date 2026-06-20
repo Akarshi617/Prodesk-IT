@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodesk IT — Digital Experiences, Engineered.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#top" class="logo">Prodesk<span>IT</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="navbar__controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle__dot"></span>
+        </button>
+        <a href="#contact" class="btn btn--nav">Get Started</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero__content">
+      <p class="eyebrow">Digital Agency — Est. 2026</p>
+      <h1 class="hero__headline">We build digital<br>experiences that <em>convert.</em></h1>
+      <p class="hero__sub">Strategy, design and engineering under one roof — for brands that want a website to work as hard as they do.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Get Started</a>
+        <a href="#services" class="btn btn--ghost">See our work →</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="stat"><span class="stat__num">120+</span><span class="stat__label">Projects shipped</span></div>
+      <div class="stat"><span class="stat__num">98%</span><span class="stat__label">Client retention</span></div>
+      <div class="stat"><span class="stat__num">4.9</span><span class="stat__label">Average rating</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <p class="about__kicker">Who we are</p>
+    <p class="about__text">Prodesk IT is a small, senior team that partners with growing businesses on the work that actually moves the needle — clear strategy, considered design, and code built to last past launch day.</p>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <p class="section-kicker">What we do</p>
+    <h2 class="section-title">Services built to perform</h2>
+
+    <div class="services__grid">
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 17L9 11L13 15L21 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7H21V13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="card__title">SEO</h3>
+        <p class="card__desc">Technical and content SEO that builds rankings you keep — not traffic you rent.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 4L3 12L8 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 4L21 12L16 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="card__title">Web Development</h3>
+        <p class="card__desc">Fast, accessible, responsive builds engineered to hold up under real traffic.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 11L21 3L13 21L11 13L3 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="card__title">Marketing</h3>
+        <p class="card__desc">Campaigns that find the right audience first, and the right words second.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA STRIP ===== -->
+  <section class="cta-strip" id="contact">
+    <h2>Let's build something worth bookmarking.</h2>
+    <p>Tell us about your project — we usually reply within a day.</p>
+    <a href="mailto:hello@prodeskit.example" class="btn btn--primary">Start a project</a>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Prodesk IT. All rights reserved.</p>
+    <div class="footer__social" aria-label="Social media links">
+      <a href="#" aria-label="Twitter">𝕏</a>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
